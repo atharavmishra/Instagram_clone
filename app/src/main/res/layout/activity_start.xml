@@ -30,11 +30,6 @@
             android:text="Log In"
             android:textAllCaps="false"
             android:id="@+id/login"/>
-
-        <androidx.legacy.widget.Space
-            android:layout_width="0dp"
-            android:layout_height="10dp"/>
-
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
