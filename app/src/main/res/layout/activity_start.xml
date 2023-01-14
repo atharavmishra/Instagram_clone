@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="match_parent"
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -16,7 +17,8 @@
         android:layout_centerInParent="true"
         android:orientation="vertical"
         android:padding="10dp"
-        android:id="@+id/linear_layout">
+        android:id="@+id/linear_layout"
+        tools:ignore="MissingClass">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -30,6 +32,12 @@
             android:text="Log In"
             android:textAllCaps="false"
             android:id="@+id/login"/>
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+
         <Button
             android:layout_width="match_parent"
             android:layout_height="50dp"
