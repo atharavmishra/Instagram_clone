@@ -15,7 +15,6 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
         reg = findViewById(R.id.button);
-        login = findViewById(R.id.button2);
 
 
     }
